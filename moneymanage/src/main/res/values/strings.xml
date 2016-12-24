@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">理财助手</string>
+
+    <!--登录-->
+    <string name="login_title">登录</string>
+    <string name="login_idCard">账号 | username</string>
+    <string name="login_password">密码 | password</string>
+
+    <!--修改密码-->
+    <string name="modify_btn_title">修改</string>
+    <string name="old_password">原密码</string>
+    <string name="new_password">新密码</string>
+
+    <!--home menu-->
+    <string name="income">收入</string>
+    <string name="outcome">支出</string>
+    <string name="note">便签</string>
+    <string name="system">系统</string>
+
+    <!--收入-->
+    <string name="hint_income_type">收入类型</string>
+    <string name="hint_income_money">收入金额</string>
+    <string name="hint_income_payer">付款方</string>
+    <string name="hint_income_datetime">收入时间</string>
+    <string name="hint_income_description">亲~~~这里可以输入收入备注</string>
+
+    <!--支出-->
+    <string name="hint_outcome_type">支出类型</string>
+    <string name="hint_outcome_money">支出金额</string>
+    <string name="hint_outcome_place">支出地点</string>
+    <string name="hint_outcome_datetime">支出时间</string>
+    <string name="hint_outcome_description">亲~~~这里可以输入收入备注</string>
+    <string name="detail_outcome">支出详情</string>
+
+    <!--便签-->
+    <string name="note_hint_title">请输入便签标题</string>
+    <string name="note_hint_content">请输入便签内容~~~</string>
+    <string name="detail_note">便签详情</string>
+
+    <!--收入-->
+    <string name="detail_income">收入详情</string>
+
+</resources>

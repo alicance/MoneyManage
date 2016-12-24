@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/add_outcome_input_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/adapter_height"
+        android:paddingStart="@dimen/margin_ten"
+        android:paddingEnd="@dimen/margin_ten"
+        android:background="@drawable/login_et_bg"
+        android:textSize="14sp"
+        android:hint="@string/hint_outcome_type"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divide_height"
+        android:background="@color/divide_line"/>
+
+    <EditText
+        android:id="@+id/add_outcome_input_place"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/adapter_height"
+        android:paddingStart="@dimen/margin_ten"
+        android:paddingEnd="@dimen/margin_ten"
+        android:background="@drawable/login_et_bg"
+        android:textSize="14sp"
+        android:hint="@string/hint_outcome_place"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divide_height"
+        android:background="@color/divide_line"/>
+
+    <EditText
+        android:id="@+id/add_outcome_input_money"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/adapter_height"
+        android:paddingStart="@dimen/margin_ten"
+        android:paddingEnd="@dimen/margin_ten"
+        android:background="@drawable/login_et_bg"
+        android:inputType="number"
+        android:textSize="14sp"
+        android:hint="@string/hint_outcome_money"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divide_height"
+        android:background="@color/divide_line"/>
+
+    <EditText
+        android:id="@+id/add_outcome_input_datetime"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/adapter_height"
+        android:paddingStart="@dimen/margin_ten"
+        android:paddingEnd="@dimen/margin_ten"
+        android:background="@drawable/login_et_bg"
+        android:textSize="14sp"
+        android:inputType="datetime"
+        android:hint="@string/hint_outcome_datetime"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divide_height"
+        android:background="@color/divide_line"/>
+
+    <EditText
+        android:id="@+id/add_outcome_input_description"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/adapter_height"
+        android:paddingStart="@dimen/margin_ten"
+        android:paddingEnd="@dimen/margin_ten"
+        android:background="@drawable/login_et_bg"
+        android:textSize="14sp"
+        android:lines="20"
+        android:gravity="top|start"
+        android:paddingTop="@dimen/margin_ten"
+        android:hint="@string/hint_outcome_description"/>
+
+</LinearLayout>

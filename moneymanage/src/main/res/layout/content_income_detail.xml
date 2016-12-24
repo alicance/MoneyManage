@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin_ten"
+        android:layout_marginEnd="@dimen/margin_ten"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/adapter_height">
+            <View
+                android:id="@+id/detail_income_title_icon"
+                android:layout_width="@dimen/icon_item_length"
+                android:layout_height="@dimen/icon_item_length"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/detail_income_title_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_margin="@dimen/margin_ten"
+                android:text="我是类型"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divide_height"
+            android:background="@color/divide_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/adapter_height">
+            <View
+                android:id="@+id/detail_income_payer_icon"
+                android:layout_width="@dimen/icon_item_length"
+                android:layout_height="@dimen/icon_item_length"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/detail_income_payer_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_margin="@dimen/margin_ten"
+                android:text="我是付款方"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divide_height"
+            android:background="@color/divide_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/adapter_height">
+            <View
+                android:id="@+id/detail_income_money_icon"
+                android:layout_width="@dimen/icon_item_length"
+                android:layout_height="@dimen/icon_item_length"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/detail_income_money_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_margin="@dimen/margin_ten"
+                android:text="￥ 5000"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divide_height"
+            android:background="@color/divide_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/adapter_height">
+            <View
+                android:id="@+id/detail_income_datetime_icon"
+                android:layout_width="@dimen/icon_item_length"
+                android:layout_height="@dimen/icon_item_length"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/detail_income_datetime_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_margin="@dimen/margin_ten"
+                android:text="2008-09-28"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divide_height"
+            android:background="@color/divide_line"/>
+
+
+        <TextView
+            android:id="@+id/detail_income_description_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_ten"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/adapter_height"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/detail_income_button_modify"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:text="修改income"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorWhitePure"/>
+
+        <Button
+            android:id="@+id/detail_income_button_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="删除income"
+            android:textSize="13sp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorWhitePure"/>
+
+    </LinearLayout>
+</RelativeLayout>

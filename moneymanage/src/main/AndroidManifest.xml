@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.samego.alic.moneymanage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!--测试权限-->
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--欢迎activity-->
+        <activity android:name=".view.activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--登陆activity-->
+        <activity android:name=".view.activity.LoginActivity">
+
+        </activity>
+        <!--主activity-->
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <!--修改密码activity-->
+        <activity android:name=".view.activity.ModifyPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--添加便签-->
+        <activity android:name=".view.activity.AddNoteActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--便签详情-->
+        <activity android:name=".view.activity.DetailNoteActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".view.activity.ModifyNoteActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--增加收入-->
+        <activity android:name=".view.activity.AddIncomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--收入详情-->
+        <activity android:name=".view.activity.DetailIncomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--修改income-->
+        <activity android:name=".view.activity.ModifyIncomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--增加支出-->
+        <activity android:name=".view.activity.AddOutcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--支出详情-->
+        <activity android:name=".view.activity.DetailOutcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--修改支出-->
+        <activity android:name=".view.activity.ModifyOutcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>
